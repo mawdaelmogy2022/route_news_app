@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:news_app/api/api_manager.dart';
 import 'package:news_app/feature/home/category_details/news/news_item.dart';
 import 'package:news_app/feature/search/widget/custom_Text_form_field.dart';
@@ -34,7 +35,12 @@ class _SearchScreenState extends State<SearchScreen> {
               ),
             ),
             searchfuture == null
-                ? Text('Not News ')
+                ? Center(
+                    child: Text(
+                      AppLocalizations.of(context)!.search_for_news,
+                      style: Theme.of(context).textTheme.labelMedium,
+                    ),
+                  )
                 : Expanded(
                     child: FutureBuilder<NewsResponse?>(
                       future: searchfuture,

@@ -15,5 +15,6 @@
   "health":"Health",
   "science":"Science",
   "technology":"Technology",
-  "view_all":"View All "
+  "view_all":"View All ",
+  "search_for_news":"Search for news 🔍"
 }
