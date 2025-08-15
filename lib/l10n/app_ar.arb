@@ -1,0 +1,19 @@
+{
+  "home": "المنزل",
+  "go_to_home":"اذهب الي الصفحة الرئيسية",
+  "theme":"النمط",
+  "dark":"داكن",
+  "light":"فاتح",
+  "language" :"اللغة",
+  "arabic":"العربية",
+  "english":"الانجليزية",
+  "good_morning_Here_is_some_news_for_you" :"صباح الخير \n إليكم بعض الأخبار",
+  "general":"العامة",
+  "sports":"الرياضة",
+  "business":"الأعمال",
+  "entertainment":"الترفيه",
+  "health":"الصحة",
+  "science":"العلوم",
+  "technology":"التكنولوجيا",
+  "view_all":" عرض الكل "
+}
